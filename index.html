@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        
+        <!--Google Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+        <!-- JQuery -->         
+        <script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/jquery-migrate-1.2.1.min.js"></script>
+        <!-- Javascript -->
+		<script src="js/index.js" type="text/javascript"></script>
+        
+        <title>Grocery Cart</title>
+    </head>
+    
+    <body>
+		<div class="background group">
+            	<section class="backgroundOne">
+                	<div class="img spices"></div>
+                	<div class="img chicken"></div>
+				</section>
+            	<section class="backgroundOne">
+                	<div class="img beef"></div>
+                	<div class="img shrimp"></div>
+				</section>
+            	<section class="backgroundOne">
+                	<div class="img bread"></div>
+                	<div class="img dairy"></div>
+				</section>
+            	<section class="backgroundOne">
+                	<div class="img veg-cat"></div>
+                	<div class="img peach"></div>
+				</section>
+		</div>
+       
+       
+       <div class="page-wrap">
+            <nav
+                <div class="blur group">
+                	<h1>GROCERY LIST</h1
+                ></div>  
+            </nav>
+        	
+            <div class="output group"></div>
+            
+        </div>
+        
+        <button onclick="clearLocalStorage()">Clear LocalStorage</button>
+        
+     	<footer class="site-footer blur">
+                    <form action="#" name="myForm" method="post">
+                        <input type="text" name="item" id="item" placeholder="enter new item"/>
+                        <button id="btnAdd">ADD TO LIST</button>
+                    </form>
+		</footer> 
+    </body>
+</html>
