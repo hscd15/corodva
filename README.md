@@ -7,7 +7,7 @@
 
 ###Description:
 
-To build an application that will run using [Apache Cordova](http://cordova.apache.org/). Using Cordova we are able to have the application run on multiple **Andriod** devices without having to code for each individual device.
+To build an application that will run using [](http://cordova.apache.org/images/cordova_256.png)[Apache Cordova](http://cordova.apache.org/). Using Cordova we are able to have the application run on multiple [](http://www.techrj.com/wp-content/uploads/2013/01/android.png)**Andriod** devices without having to code for each individual device.
 
 ###Instructions:
 
